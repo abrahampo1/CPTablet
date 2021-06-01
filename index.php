@@ -16,13 +16,11 @@ include("database.php");
 
     .tablet {
         display: inline;
-        background-color: red;
         width: 99%;
         height: 99%;
     }
 
     .title {
-        background-color: wheat;
     }
 
     .title-holder {
