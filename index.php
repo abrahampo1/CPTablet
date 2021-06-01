@@ -20,8 +20,7 @@ include("database.php");
         height: 99%;
     }
 
-    .title {
-    }
+    .title {}
 
     .title-holder {
         padding-right: 30%;
@@ -88,6 +87,10 @@ include("database.php");
         border-radius: 20px;
         font-size: 30px;
     }
+    .pdf{
+        width: 100%;
+        height: 50%;
+    }
 </style>
 
 <head>
@@ -104,7 +107,7 @@ include("database.php");
     <div class="tablet">
         <div class="title-holder">
             <div class="title">
-                <h1>IES Asorey</h1>
+                <h1>IES Francisco Asorey</h1>
             </div>
         </div>
         <div class="fila">
@@ -114,6 +117,8 @@ include("database.php");
                 <p class="youtube-title" id="youtube-title">Cargando...</p>
                 <a class="enlace" href="https://musica.asorey.net">Proponer canción</a>
             </div>
+
+
             <div class="col biblioteca">
                 <p class="departamento">Biblioteca</p>
                 <form action="https://biblio.asorey.net" method="post">
@@ -121,6 +126,12 @@ include("database.php");
                     <br>
                     <button class="search">Buscar</button>
                 </form>
+                <div class="pdf">
+                    <p class="departamento">Probas ABAU</p>
+                    <object data="https://view.publitas.com/43599/1287684/pdfs/0c389e75-f998-456c-a890-a64d8a80dfd0.pdf" style="border-radius: 15px;" type="application/pdf" width="100%" height="100%">
+                    </object>
+
+                </div>
             </div>
         </div>
     </div>
