@@ -29,6 +29,7 @@ include("database.php");
 
     .fila {
         display: flex;
+        max-height: 90%;
     }
 
     .col {
@@ -38,6 +39,7 @@ include("database.php");
 
     .miniatura {
         border-radius: 20px;
+        margin: 10px;
     }
 
     .youtube-title {
@@ -91,6 +93,12 @@ include("database.php");
         width: 100%;
         height: 50%;
     }
+    .pdf-holder{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+    }
 </style>
 
 <head>
@@ -128,8 +136,11 @@ include("database.php");
                 </form>
                 <div class="pdf">
                     <p class="departamento">Probas ABAU</p>
-                    <object data="https://view.publitas.com/43599/1287684/pdfs/0c389e75-f998-456c-a890-a64d8a80dfd0.pdf" style="border-radius: 15px;" type="application/pdf" width="100%" height="100%">
-                    </object>
+                    <div class="pdf-holder">
+                    
+                    <img class="miniatura" src="./img/2bach_1.png" alt="">
+                    <img class="miniatura" src="./img/2bach_2.png" alt="">
+                    </div>
 
                 </div>
             </div>
